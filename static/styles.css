@@ -1,0 +1,110 @@
+body {
+    /* background-image: url('../static/images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh; /* Use min-height instead of height for responsiveness */
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin-right: -300px; 
+}
+
+img.round-image {
+    border-radius: 50%;
+    width: 290px; 
+    height: 294px;
+    object-fit: cover; 
+}
+
+h3 {
+    margin: -6px; 
+}
+
+.first_navlink {
+    display: flex;
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+}
+
+.first_navlink > * {
+    margin-right: 10px; /* Adjust the value as per your preference */
+}
+
+
+.navbar-links li {
+    margin-right: 10px;
+    
+
+}
+
+.navbar-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+    
+
+}
+.navbar-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.navbar-links li a {
+    display: block;
+    width: 80px; /* Adjust width as needed */
+    height: 90px; /* Set height same as width for a perfect circle */
+    border-radius: 50%; /* Make it a circle */
+    text-align: center;
+    line-height: 90px; /* Vertically center text */
+    background-color: lightblue; 
+    text-decoration: none;
+}
+.flex-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.flex-container li {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.flex-container li:last-child {
+    margin-right: 0;
+}
+
+.flex-container li a {
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(252, 247, 247);
+    color: hsl(0, 100%, 3%);
+    padding: 5px;
+    text-align: center;
+}
